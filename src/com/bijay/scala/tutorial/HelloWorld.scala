@@ -7,10 +7,10 @@ object HelloWorld {
       
       scalaExample  //calling function
       
-   }
+  }
   
   def scalaExample{             //defining function
     println("Hello Scala: I am a function call")  
 }  
-  
+
 }
