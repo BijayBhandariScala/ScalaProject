@@ -10,12 +10,17 @@ object Variable {
       println("I am variable:") 
       println(data)
       value
-      
+      character
   }
    
    def value{            
       val data:Int= 200    //2nd way
-      print(data)
+      println(data)
+   }
+   
+   def character{
+     val d:String= "Bijay B"   //String
+     println(d)
    }
   
 }
