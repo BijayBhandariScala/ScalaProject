@@ -8,6 +8,8 @@ object Loops {
       whileloop()
       println("I am a do while loop example:") 
       dowhile()
+      println("I am a for loop example:") 
+      forloop()
       
   }
   
@@ -30,4 +32,13 @@ object Loops {
       }   
         while(a<20)
   }
+    
+    def forloop(){
+      var a=1;
+      for( a<-1 to 10){
+        println("value of a:" +a)
+        
+      }
+    
+    }
 }
