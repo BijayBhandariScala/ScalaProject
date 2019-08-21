@@ -2,26 +2,30 @@ package com.bijay.scala.tutorial
 
 object Ifelse {
   
-  val no:Int =300
+  val number:Int =300
   
   def main(args: Array[String]) {
     
-    println("IF ELSE Example:")
+    println("IF ELSE Example, Entered number is:" +number)
     getif
     getifelse
     
   }
   
   def getif{ 
-    if (no>200){
-      println("am greater than no.")
+    val num1:Int=200
+    if (number>num1){
+      println("num to compare." +number)
+      println("am greater than no." +num1)
     } 
   }
   
   def getifelse{
-    if (no>400)
-      println("am greater than number:")
+    val num2:Int=400
+    println("num to compare." +number)
+    if (number>num2)  
+      println("am greater than number:" +num2)
     else
-      println("am less than number:") 
+      println("am less than number:" +num2) 
   }
 }
